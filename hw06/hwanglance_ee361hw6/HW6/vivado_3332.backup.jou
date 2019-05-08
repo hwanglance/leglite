@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 27 14:33:01 2017
+# Process ID: 2400
+# Log file: C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/HW6/vivado.log
+# Journal file: C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/HW6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/HW6/HW6.xpr
+remove_files {C:/Users/lance.hwang/Downloads/07hw6stage1/Parts_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/LEGLite-Control_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/LEGLite-PC_edit.v C:/Users/lance.hwang/Downloads/09hw6stage3/IM2_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/LEGLiteSingle_edit.v C:/Users/lance.hwang/Downloads/09hw6stage3/testbenchLEGLiteSingle-Stage3_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/IM1_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/testbench-LEGLiteSingle-Stage2_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/testbench-PC_edit.v C:/Users/lance.hwang/Downloads/08hw6stage2/testbench-Control_edit.v C:/Users/lance.hwang/Downloads/07hw6stage1/testbench-Parts-RFile_edit.v C:/Users/lance.hwang/Downloads/07hw6stage1/testbench-Parts-Dmem_edit.v C:/Users/lance.hwang/Downloads/07hw6stage1/testbench-Parts-CombCirc_edit.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -norecurse {C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/LEGLite-PC_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-CombCirc_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-RFile_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-Dmem_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/IM1_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/Parts_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/LEGLite-Control_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-PC_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage3/IM2_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/LEGLiteSingle_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-Control_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-LEGLiteSingle-Stage2_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage3/testbenchLEGLiteSingle-Stage3_edit.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-LEGLiteSingle-Stage2_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-Control_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/testbench-PC_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-Dmem_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-RFile_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage1/testbench-Parts-CombCirc_edit.v C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/stage2/IM1_edit.v}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source testbenchLEGLiteSingle.tcl
+close_sim

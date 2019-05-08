@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../stage2/LEGLite-PC_edit.v"
+verilog xil_defaultlib  "../../../../stage2/LEGLite-Control_edit.v"
+verilog xil_defaultlib  "../../../../stage1/Parts_edit.v"
+verilog xil_defaultlib  "../../../../stage2/LEGLiteSingle_edit.v"
+verilog xil_defaultlib  "../../../../stage3/IM2_edit.v"
+verilog xil_defaultlib  "../../../../stage3/testbenchLEGLiteSingle-Stage3_edit.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

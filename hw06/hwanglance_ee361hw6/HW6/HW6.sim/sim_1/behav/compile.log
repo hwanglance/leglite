@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLite-PC_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCLogic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLite-Control_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage1/Parts_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMemory_IO
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLiteSingle_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGLiteSingle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage3/IM2_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage3/testbenchLEGLiteSingle-Stage3_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbenchLEGLiteSingle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

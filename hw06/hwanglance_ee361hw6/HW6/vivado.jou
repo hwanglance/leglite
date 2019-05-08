@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 27 14:37:41 2017
+# Process ID: 3332
+# Log file: C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/vivado.log
+# Journal file: C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.xpr
+launch_simulation
+source testbenchLEGLiteSingle.tcl
+close_sim
