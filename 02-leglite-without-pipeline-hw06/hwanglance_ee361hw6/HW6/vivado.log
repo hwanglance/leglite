@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 27 14:37:41 2017
+# Process ID: 3332
+# Log file: C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/vivado.log
+# Journal file: C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/lance.hwang/Downloads/hwanglance_ee361hw6/HW6' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbenchLEGLiteSingle' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbenchLEGLiteSingle_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLite-PC_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCLogic
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLite-Control_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage1/Parts_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMemory_IO
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage2/LEGLiteSingle_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEGLiteSingle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage3/IM2_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage3/testbenchLEGLiteSingle-Stage3_edit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbenchLEGLiteSingle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto d831e3e85fd7484a81ede669faf6897c --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbenchLEGLiteSingle_behav xil_defaultlib.testbenchLEGLiteSingle xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PCLogic
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.LEGLiteSingle
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.DMemory_IO
+Compiling module xil_defaultlib.testbenchLEGLiteSingle
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot testbenchLEGLiteSingle_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/xsim.dir/testbenchLEGLiteSingle_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav/xsim.dir/testbenchLEGLiteSingle_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Nov 27 14:37:59 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 27 14:37:59 2017...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/HW6/HW6.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbenchLEGLiteSingle_behav -key {Behavioral:sim_1:Functional:testbenchLEGLiteSingle} -tclbatch {testbenchLEGLiteSingle.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source testbenchLEGLiteSingle.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Instruction[pc]=[opcode,reg,reg,reg,funct]
+
+DataMemory[addr]=[read data, write data]
+
+Signals C-R-Sw-Disp[clock,reset,switch0,display]
+* Recall data memory addr = ALU output
+
+Instr[    x]=[xxx,xxx,xxx,xxx,xxxx] DataMem[    x]=[    0,    x] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[    x]=[xxx,xxx,xxx,xxx,xxxx] DataMem[    x]=[    0,    x] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[    x]=[xxx,xxx,xxx,xxx,xxxx] DataMem[    x]=[    0,    x] C-R-Sw0-Dsp[0,1,1,xxxxxxx]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,1,1,xxxxxxx]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    x] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    x] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[1,0,1,xxxxxxx]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[0,0,1,xxxxxxx]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    1] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    1] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    1] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    1] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    1]=[    0,    x] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    1]=[    0,    1] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    8]=[110,011,000,011,1100] DataMem[   48]=[    0,65520] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   10]=[101,000,001,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,   48] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    1,    1] C-R-Sw0-Dsp[1,0,1,0110000]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    1] C-R-Sw0-Dsp[0,0,0,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[1,0,0,0110000]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[0,0,0,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,0110000]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,0110000]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[1,0,0,0110000]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[0,0,0,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[1,0,0,0110000]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[0,0,0,0110000]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   16]=[101,111,100,000,0111] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    0]=[110,111,000,011,1011] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    2]=[011,000,000,001,1101] DataMem[65520]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    4]=[111,000,000,110,1101] DataMem[    0]=[    0,    x] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[    6]=[101,000,001,100,0101] DataMem[    0]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[1,0,0,1111110]
+Instr[   12]=[110,111,111,011,1100] DataMem[65534]=[    0,    0] C-R-Sw0-Dsp[0,0,0,1111110]
+Instr[   14]=[100,000,101,001,1100] DataMem[65530]=[    0,65534] C-R-Sw0-Dsp[1,0,0,1111110]
+$finish called at time : 104 ns : File "C:/Users/lance.hwang/Downloads/06misc/hwanglance_ee361hw6/stage3/testbenchLEGLiteSingle-Stage3_edit.v" Line 71
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbenchLEGLiteSingle_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 794.637 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 27 14:38:28 2017...
